@@ -8,78 +8,25 @@
 <!--<![endif]-->
 
 <head>
-	<!-- Basic Page Needs -->
-	<meta charset="utf-8">
 	<title>Be</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="content/carwash3/images/favicon.ico">
-	<!-- FONTS -->
-	<link rel='stylesheet'
-		href='https://fonts.googleapis.com/css?family=Inter:100,200,300,400,400italic,500,600,700,700italic,900'>
-	<link rel='stylesheet'
-		href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
-	<link rel='stylesheet'
-		href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,400,400italic,500,600,700,700italic,900'>
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<!--CSS -->
-	<link rel='stylesheet' href='content/carwash3/css/structure.css'>
-	<link rel='stylesheet' href='content/carwash3/css/carwash3.css'>
+	<?php include "header-files.php"; ?>
 </head>
 
-<body
-	class=" page content-brightness-dark input-brightness-dark style-simple button-custom layout-full-width if-zoom no-content-padding no-shadows header-transparent header-fw sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-right mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-13">
+<body class=" page content-brightness-dark input-brightness-dark style-simple button-custom layout-full-width if-zoom no-content-padding no-shadows header-transparent header-fw sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-right mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-13">
 	<div id="Wrapper">
 		<div id="Header_wrapper">
 			<header id="Header">
-				<div id="Top_bar">
-					<div class="container">
-						<div class="column one">
-							<div class="top_bar_left clearfix">
-								<div class="logo">
-									<a id="logo" href="../../index-carwash3.html" title="BeCarWash 3 - Betheme"
-										data-height="60" data-padding="15"><img class="logo-main scale-with-grid svg"
-											src="content/carwash3/images/carwash.svg" data-retina="" data-height=""
-											alt="carwash" data-no-retina /><img class="logo-sticky scale-with-grid svg"
-											src="content/carwash3/images/carwash.svg" data-retina="" data-height=""
-											alt="carwash" data-no-retina /><img class="logo-mobile scale-with-grid svg"
-											src="content/carwash3/images/carwash.svg" data-retina="" data-height=""
-											alt="carwash" data-no-retina /><img
-											class="logo-mobile-sticky scale-with-grid svg"
-											src="content/carwash3/images/carwash.svg" data-retina="" data-height=""
-											alt="carwash" data-no-retina /></a>
-								</div>
-								<div class="menu_wrapper"> <a class="responsive-menu-toggle" href="#"
-										aria-label="Mobile menu"><i class="icon-menu-fine" aria-hidden="true"></i></a>
-									<nav id="menu" role="navigation" aria-expanded="false" aria-label="Main Menu">
-										<ul id="menu-main-menu" class="menu menu-main">
-											<li> <a href="index.html"><span>HOME</span></a> </li>
-											<li> <a href="about.html"><span>ABOUT US</span></a> </li>
-											<li> <a href="services.html"><span>SERVICES &#038; PRICING</span></a> </li>
-											<li> <a href="works.html"><span>WORKS</span></a> </li>
-											<li class=" current-menu-item page_item current_page_item"> <a
-													href="contact.html"><span>CONTACT</span></a> </li>
-										</ul>
-									</nav>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<?php include "header.php"; ?>
 			</header>
 		</div>
 		<div id="Content" role="main">
 			<div class="section mcb-section mcb-section_custom32 default-width">
 				<div class="section_wrapper mcb-section_inner_custom32">
-					<div class="col-md-4 mcb-wrap_custom90 tablet-one mobile-one clearfix" data-desktop-col="one-third"
-						data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+					<div class="col-md-4 mcb-wrap_custom90 tablet-one mobile-one clearfix" data-desktop-col="one-third" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom90">
-							<div
-								class="col-12 mcb_item_custom177 tablet-one mobile-one column_icon_box_2 mfn-item-inline">
+							<div class="col-12 mcb_item_custom177 tablet-one mobile-one column_icon_box_2 mfn-item-inline">
 								<div class=" mcb-column_inner_custom177">
 									<div class="mfn-icon-box mfn-icon-box-left mfn-icon-box-center">
 										<div class="icon-wrapper"> <i class="icon-minus-fine" aria-hidden="true"></i>
@@ -102,15 +49,11 @@
 									</h5>
 								</div>
 							</div>
-							<div
-								class="col-10 mcb_item_custom396 tablet-one mobile-one column_icon_box_2 mfn-item-inline">
+							<div class="col-10 mcb_item_custom396 tablet-one mobile-one column_icon_box_2 mfn-item-inline">
 								<div class="mcb-column-inner">
 									<a href="services.html">
-										<div
-											class="mfn-icon-box mfn-icon-box-right mfn-icon-box-end mfn-icon-box-box-scale">
-											<div class="icon-wrapper"><img class="scale-with-grid"
-													src="content/carwash3/images/carwash3-arrow1.svg"
-													alt="carwash3-arrow1" width="" height="" /> </div>
+										<div class="mfn-icon-box mfn-icon-box-right mfn-icon-box-end mfn-icon-box-box-scale">
+											<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-arrow1.svg" alt="carwash3-arrow1" width="" height="" /> </div>
 											<div class="desc-wrapper">
 												<div class="desc"> SHOW ME SERVICES </div>
 											</div>
@@ -120,16 +63,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 mcb-wrap_custom91 tablet-one mobile-one clearfix" data-desktop-col="two-third"
-						data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+					<div class="col-md-8 mcb-wrap_custom91 tablet-one mobile-one clearfix" data-desktop-col="two-third" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom91">
 							<div class="col-12 mcb_item_custom179 tablet-one mobile-one column_before_after">
 								<div class=" mcb-column_inner_custom179">
-									<div class="before_after twentytwenty-container" data-before="Before"
-										data-after="After"><img class="scale-with-grid"
-											src="content/carwash3/images/carwash3-beforeafter-pic2.webp" /><img
-											class="scale-with-grid"
-											src="content/carwash3/images/carwash3-beforeafter-pic1.webp" /> </div>
+									<div class="before_after twentytwenty-container" data-before="Before" data-after="After"><img class="scale-with-grid" src="content/carwash3/images/carwash3-beforeafter-pic2.webp" /><img class="scale-with-grid" src="content/carwash3/images/carwash3-beforeafter-pic1.webp" /> </div>
 								</div>
 							</div>
 						</div>
@@ -138,15 +76,12 @@
 			</div>
 			<div class="section mcb-section mcb-section_custom33 default-width">
 				<div class="section_wrapper mcb-section_inner_custom33 row no-gutters">
-					<div class="col-12 mcb-wrap_custom92 tablet-one mobile-one clearfix" data-desktop-col="one"
-						data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+					<div class="col-12 mcb-wrap_custom92 tablet-one mobile-one clearfix" data-desktop-col="one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom92 row no-gutters">
 							<div class="col-md-4 mcb_item_custom180 tablet-one-third mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom180">
 									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-num1.svg" alt="carwash3-num1"
-												width="" height="" />
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-num1.svg" alt="carwash3-num1" width="" height="" />
 										</div>
 										<div class="desc-wrapper">
 											<h4 class="title">Sed necubus natoque.</h4>
@@ -159,9 +94,7 @@
 							<div class="col-md-4 mcb_item_custom181 tablet-one-third mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom181">
 									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-num2.svg" alt="carwash3-num2"
-												width="" height="" />
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-num2.svg" alt="carwash3-num2" width="" height="" />
 										</div>
 										<div class="desc-wrapper">
 											<h4 class="title">Mi nunc pellentesque.</h4>
@@ -174,9 +107,7 @@
 							<div class="col-md-4 mcb_item_custom182 tablet-one-third mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom182">
 									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-num3.svg" alt="carwash3-num3"
-												width="" height="" />
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-num3.svg" alt="carwash3-num3" width="" height="" />
 										</div>
 										<div class="desc-wrapper">
 											<h4 class="title">Donec nibh vitae velit.</h4>
@@ -188,15 +119,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 tablet-one mobile-one clearfix" data-desktop-col="one"
-						data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+					<div class="col-12 tablet-one mobile-one clearfix" data-desktop-col="one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner row">
 							<div class="col-md-6 mcb_item_custom183 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom183">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img
-												src="content/carwash3/images/carwash3-works-pic1.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img src="content/carwash3/images/carwash3-works-pic1.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Eget sagittis nunc etiam facilisi neque, sed. Et
 												placerat. </div>
@@ -206,10 +134,8 @@
 							</div>
 							<div class="col-md-6 mcb_item_custom184 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom184">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-works-pic2.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-works-pic2.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Et egestas faucibus vel sed felis. Est dolor aliquam.
 											</div>
@@ -219,10 +145,8 @@
 							</div>
 							<div class="col-md-6 mcb_item_custom185 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom185">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-works-pic3.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-works-pic3.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Quis erat rhoncus tortor morbi aliquam elit at felis.
 											</div>
@@ -232,10 +156,8 @@
 							</div>
 							<div class="col-md-6 mcb_item_custom186 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom186">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-works-pic4.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-works-pic4.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Etiam lectus congue proin eget sem. Facilisis lorem.
 											</div>
@@ -245,10 +167,8 @@
 							</div>
 							<div class="col-md-6 mcb_item_custom187 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom187">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-works-pic5.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-works-pic5.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Odio ut et risus in nunc urna. Mattis pellentesque.
 											</div>
@@ -258,10 +178,8 @@
 							</div>
 							<div class="col-md-6 mcb_item_custom188 tablet-one-second mobile-one column_icon_box_2">
 								<div class=" mcb-column_inner_custom188">
-									<div
-										class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
-										<div class="icon-wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-offer-pic4.webp" /> </div>
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-center mfn-icon-box-icon-scale">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-offer-pic4.webp" /> </div>
 										<div class="desc-wrapper">
 											<div class="desc"> Nam arcu platea ac nunc maecenas. Curabitur in. </div>
 										</div>
@@ -274,8 +192,7 @@
 			</div>
 			<div class="section mcb-section mcb-section_custom42 default-width">
 				<div class="section_wrapper mcb-section_inner_custom42 row no-gutters">
-					<div class="col-md-3 mcb_wrap_custom8 tablet-one-third mobile-one clearfix"
-						data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
+					<div class="col-md-3 mcb_wrap_custom8 tablet-one-third mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner row no-gutters">
 							<div class="col-12 mcb_item_custom241 tablet-one mobile-one column_heading">
 								<div class=" mcb-column_inner_custom241">
@@ -289,27 +206,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 mcb-wrap_custom114 tablet-one-third mobile-one clearfix"
-						data-desktop-col="one-second" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
+					<div class="col-md-6 mcb-wrap_custom114 tablet-one-third mobile-one clearfix" data-desktop-col="one-second" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom114">
 							<div class="col-12 mcb_item_custom239 tablet-one mobile-one">
 								<div class=" mcb-column_inner_custom239">
-									<div
-										class="image_frame element_classes image_item no_link scale-with-grid alignnone no_border">
-										<div class="image_wrapper"><img class="scale-with-grid"
-												src="content/carwash3/images/carwash3-book-pic1.webp"
-												alt="carwash3-book-pic1" width="780" height="593" /> </div>
+									<div class="image_frame element_classes image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-book-pic1.webp" alt="carwash3-book-pic1" width="780" height="593" /> </div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 mcb-wrap_custom115 tablet-one-third mobile-one clearfix"
-						data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
+					<div class="col-md-3 mcb-wrap_custom115 tablet-one-third mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom115">
 							<div class="col-12 mcb_item_custom242 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom242"> <a class="button button_theme button_size_2"
-										href="#"><span class="button_label">Start now</span></a> </div>
+								<div class=" mcb-column_inner_custom242"> <a class="button button_theme button_size_2" href="#"><span class="button_label">Start now</span></a> </div>
 							</div>
 						</div>
 					</div>
@@ -332,8 +243,7 @@
 					<div class="col-md-4">
 						<div class="mcb-column-inner">
 							<figure class="wp-block-image size-full">
-								<a href="#Header_wrapper"><img src="content/carwash3/images/carwash3-footer-logo.svg"
-										class="wp-image-71" /></a>
+								<a href="#Header_wrapper"><img src="content/carwash3/images/carwash3-footer-logo.svg" class="wp-image-71" /></a>
 							</figure>
 						</div>
 					</div>
@@ -353,10 +263,8 @@
 			<div class="footer_copy">
 				<div class="container">
 					<div class="column one mobile-one">
-						<div class="mcb-column-inner"> <a id="back_to_top" class="footer_button" href="#"><i
-									class="icon-up-open-big" aria-label="Back to top icon"></i></a>
-							<div class="copyright"> &copy; 2022 - BeTheme. Muffin group - HTML by <a target="_blank"
-									rel="nofollow" href="https://1.envato.market/9ZxXY">BeantownThemes</a> </div>
+						<div class="mcb-column-inner"> <a id="back_to_top" class="footer_button" href="#"><i class="icon-up-open-big" aria-label="Back to top icon"></i></a>
+							<div class="copyright"> &copy; 2022 - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="https://1.envato.market/9ZxXY">BeantownThemes</a> </div>
 							<ul class="social" role="navigation" aria-label="Social Menu"></ul>
 						</div>
 					</div>
@@ -365,10 +273,8 @@
 		</footer>
 	</div>
 	<div id="body_overlay"></div>
-	<div id="Side_slide" class="right dark" data-width="250" aria-expanded="false" role="banner"
-		aria-label="Responsive menu">
-		<div class="close-wrapper"> <a href="#" class="close"><i class="icon-cancel-fine"
-					aria-label="menu close icon"></i></a> </div>
+	<div id="Side_slide" class="right dark" data-width="250" aria-expanded="false" role="banner" aria-label="Responsive menu">
+		<div class="close-wrapper"> <a href="#" class="close"><i class="icon-cancel-fine" aria-label="menu close icon"></i></a> </div>
 		<div class="extras">
 			<div class="extras-wrapper" role="navigation" aria-label="Extras menu"></div>
 		</div>

@@ -512,7 +512,7 @@
 	background-color: #F0F4F4;
 	padding-top: 140px;
 	padding-bottom: 220px;
-	background-image: url(../images/carwash3-section-bg2.webp);
+	/* background-image: url(../images/carwash3-section-bg2.webp); */
 	background-repeat: no-repeat;
 	background-position: center;
 }
