@@ -18,7 +18,7 @@
 	<div id="Wrapper">
 		<div id="Header_wrapper">
 			<header id="Header">
-			<?php include "header.php"; ?>
+				<?php include "header.php"; ?>
 			</header>
 		</div>
 		<div id="Content" role="main">
@@ -99,12 +99,14 @@
 										<div class="desc-wrapper">
 											<h6 class="title">01</h6>
 											<div class="desc">
-												<h3 style="color:#FFF;">Cleaning</h3>
-												<hr class="no_line" style="margin: 0 auto 5px auto" /> Quisque mauris
-												eget non mauris sed volutpat nunc nunc. Nec proin sagittis porta natoque
-												consequat cras enim. Nibh accumsan enim eu gravida tristique eget nunc
-												suspendisse. Orci nullam diam, proin senectus rhoncus sed cursus pretium
-												facilisis. Et tellus dictum convallis quis vivamus massa cras.
+												<h3 style="color:#FFF;">Cybersecurity</h3>
+												<hr class="no_line" style="margin: 0 auto 5px auto" />
+												<ul style="list-style: disc;">
+													<li>Security Application Development: Utilizing Hardware Security Modules (HSM) for applications like immobilizers.</li>
+													<li>HSM Firmware Integration: AUTOSAR CryptoStack integration and configuration.</li>
+													<li>Secure Software Development: Compliance with Secure Hardware Extension (SHE) standards.</li>
+												</ul>
+												<a class="button button_theme button_size_2 mt-2" href="#"><span class="button_label">Read More</span></a>
 											</div>
 										</div>
 									</div>
@@ -137,12 +139,15 @@
 										<div class="desc-wrapper">
 											<h6 class="title">02</h6>
 											<div class="desc">
-												<h3 style="color:#FFF;">Washing</h3>
-												<hr class="no_line" style="margin: 0 auto 5px auto" /> Quisque mauris
-												eget non mauris sed volutpat nunc nunc. Nec proin sagittis porta natoque
-												consequat cras enim. Nibh accumsan enim eu gravida tristique eget nunc
-												suspendisse. Orci nullam diam, proin senectus rhoncus sed cursus pretium
-												facilisis. Et tellus dictum convallis quis vivamus massa cras.
+												<h3 style="color:#FFF;">Functional Safety</h3>
+												<hr class="no_line" style="margin: 0 auto 5px auto" />
+
+												<ul style="list-style: disc;">
+													<li>Basic Software (BSW) Development: For various microcontroller families, in line with ISO 26262.</li>
+													<li>Application Software (ASW) Development: For embedded applications.</li>
+													<li>Safety Libraries: Development and integration of safety libraries and ERRATA evaluation.</li>
+												</ul>
+												<a class="button button_theme button_size_2 mt-2" href="#"><span class="button_label">Read More</span></a>
 											</div>
 										</div>
 									</div>
@@ -175,12 +180,14 @@
 										<div class="desc-wrapper">
 											<h6 class="title">03</h6>
 											<div class="desc">
-												<h3 style="color:#FFF;">Coating</h3>
-												<hr class="no_line" style="margin: 0 auto 5px auto" /> Quisque mauris
-												eget non mauris sed volutpat nunc nunc. Nec proin sagittis porta natoque
-												consequat cras enim. Nibh accumsan enim eu gravida tristique eget nunc
-												suspendisse. Orci nullam diam, proin senectus rhoncus sed cursus pretium
-												facilisis. Et tellus dictum convallis quis vivamus massa cras.
+												<h3 style="color:#FFF;">ASPICE</h3>
+												<hr class="no_line" style="margin: 0 auto 5px auto" />
+												<ul style="list-style: disc;">
+													<li>Process Analysis: Conducting thorough ASPICE assessments to identify strengths and areas for improvement.</li>
+													<li>Compliance Support: Ensuring compliance with VDA and intacs™ standards.</li>
+													<li>Assessment Preparation: Guiding companies through the steps to achieve ASPICE certification.</li>
+												</ul>
+												<a class="button button_theme button_size_2 mt-2" href="#"><span class="button_label">Read More</span></a>
 											</div>
 										</div>
 									</div>
@@ -213,12 +220,55 @@
 										<div class="desc-wrapper">
 											<h6 class="title">04</h6>
 											<div class="desc">
-												<h3 style="color:#FFF;">Polishing</h3>
-												<hr class="no_line" style="margin: 0 auto 5px auto" /> Quisque mauris
-												eget non mauris sed volutpat nunc nunc. Nec proin sagittis porta natoque
-												consequat cras enim. Nibh accumsan enim eu gravida tristique eget nunc
-												suspendisse. Orci nullam diam, proin senectus rhoncus sed cursus pretium
-												facilisis. Et tellus dictum convallis quis vivamus massa cras.
+												<h3 style="color:#FFF;">AutoSAR</h3>
+												<hr class="no_line" style="margin: 0 auto 5px auto" />
+												<ul style="list-style: disc;">
+													<li>AUTOSAR Development: Manual and model-based software development, RTE configuration, and integration.</li>
+													<li>Software Component Integration: Configuring and integrating AUTOSAR components, modules, and interfaces.</li>
+													<li>RTOS and Multicore Development: Real-Time Operating System (RTOS) and multicore software development.</li>
+												</ul>
+												<a class="button button_theme button_size_2 mt-2" href="#"><span class="button_label">Read More</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 mcb-wrap_custom82 tablet-one mobile-one clearfix" data-desktop-col="one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+						<div class="mcb-wrap_inner mcb-wrap_inner_custom82 row no-gutters">
+							<div class="col-3 mcb_item_custom163 tablet-one-fourth mobile-one column_icon_box_2 hide-mobile">
+								<div class=" mcb-column_inner_custom163">
+									<div class="mfn-icon-box mfn-icon-box-top mfn-icon-box-start">
+										<div class="icon-wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-icon2.svg" alt="carwash3-icon2" width="" height="" /> </div>
+										<div class="desc-wrapper"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-2 mcb_item_custom175 tablet-one-fourth mobile-one">
+								<div class=" mcb-column_inner_custom175">
+									<div class="image_frame element_classes image_item no_link scale-with-grid alignnone no_border">
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-offer-pic6.webp" alt="carwash3-offer-pic6" width="780" height="780" /> </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-7 mcb_item_custom385 tablet-one-second mobile-one column_icon_box_2">
+								<div class="mcb-column-inner">
+									<div class="mfn-icon-box mfn-icon-box-left mfn-icon-box-start">
+										<div class="icon-wrapper"> <i class="icon-minus-fine" aria-hidden="true"></i>
+										</div>
+										<div class="desc-wrapper">
+											<h6 class="title">05</h6>
+											<div class="desc">
+												<h3 style="color:#FFF;">Testing</h3>
+												<hr class="no_line" style="margin: 0 auto 5px auto" />
+												<ul style="list-style: disc;">
+													<li>IoT / Automotive / Embedded Linux: Comprehensive testing to uncover vulnerabilities in embedded devices.</li>
+													<li>Methodology: Customized testing scenarios including WiFi, Bluetooth, media player/USB, CAN/UDS, and more.</li>
+													<li>Compliance: UNECE WP.29 and ISO/SAE 21434 compliance.</li>
+												</ul>
+												<a class="button button_theme button_size_2 mt-2" href="#"><span class="button_label">Read More</span></a>
 											</div>
 										</div>
 									</div>
@@ -228,241 +278,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="section mcb-section mcb-section_custom29 default-width">
-				<div class="section_wrapper mcb-section_inner_custom29 row no-gutters">
-					<div class="col-12 mcb-wrap_custom83 tablet-one mobile-one clearfix" data-desktop-col="one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom83 row no-gutters">
-							<div class="col-12 mcb_item_custom164 tablet-one mobile-one column_heading">
-								<div class=" mcb-column_inner_custom164">
-									<h6 class="title">CARWASH</h6>
-								</div>
-							</div>
-							<div class="col-md-7 mcb_item_custom384 tablet-three-fifth mobile-one column_heading">
-								<div class="mcb-column-inner">
-									<h2 class="title">Feugiat amet ut feugiat egestas. Viverra nunc.</h2>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 mcb-wrap_custom84 tablet-one-second mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom84 row no-gutters">
-							<div class="col-12 mcb_item_custom386 tablet-one mobile-one column_heading">
-								<div class="mcb-column-inner">
-									<h4 class="title">Basic</h4>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom387 tablet-one mobile-one column_counter">
-								<div class="mcb-column-inner">
-									<div class="counter counter_vertical animate-math">
-										<div class="desc_wrapper">
-											<div class="number-wrapper"> <span class="label prefix">$</span><span class="number" data-to="12">12</span> </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 tablet-one mobile-one">
-								<div class="mcb-column-inner">
-									<div class="column_attr mfn-inline-editor clearfix">
-										<ul class="list_custom">
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Exterior washing </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Vacuum cleaning </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Interior wet cleaning </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Window wiping </li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom165 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom165"> <a class="button button_full_width button_size_2" href="contact.html"><span class="button_label">Order now</span></a> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 mcb-wrap_custom85 tablet-one-second mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom85 row no-gutters">
-							<div class="col-12 mcb_item_custom388 tablet-one mobile-one column_heading">
-								<div class="mcb-column-inner">
-									<h4 class="title">Basic Cleaning</h4>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom389 tablet-one mobile-one column_counter">
-								<div class="mcb-column-inner">
-									<div class="counter counter_vertical animate-math">
-										<div class="desc_wrapper">
-											<div class="number-wrapper"> <span class="label prefix">$</span><span class="number" data-to="24">24</span> </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 tablet-one mobile-one">
-								<div class="mcb-column-inner">
-									<div class="column_attr mfn-inline-editor clearfix">
-										<ul class="list_custom">
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Exterior washing </li>
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Vacuum cleaning </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Interior wet cleaning </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Window wiping </li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom166 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom166"> <a class="button button_full_width button_size_2" href="contact.html"><span class="button_label">Order now</span></a> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 mcb-wrap_custom88 tablet-one-second mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom88 row no-gutters">
-							<div class="col-12 mcb_item_custom390 tablet-one mobile-one column_heading">
-								<div class="mcb-column-inner">
-									<h4 class="title">Premium Wash</h4>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom391 tablet-one mobile-one column_counter">
-								<div class="mcb-column-inner">
-									<div class="counter counter_vertical animate-math">
-										<div class="desc_wrapper">
-											<div class="number-wrapper"> <span class="label prefix">$</span><span class="number" data-to="30">30</span> </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 tablet-one mobile-one">
-								<div class="mcb-column-inner">
-									<div class="column_attr mfn-inline-editor clearfix">
-										<ul class="list_custom">
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Exterior washing </li>
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Vacuum cleaning </li>
-											<li style="color:#1C3AA4;"> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i> Interior wet cleaning </li>
-											<li style="color:#B7B7B7;"> <i class="icon-minus" style="color:#B7B7B7" aria-hidden="true"></i> Window wiping </li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom167 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom167"> <a class="button button_full_width button_size_2" href="contact.html"><span class="button_label">Order now</span></a> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 mcb-wrap_custom86 tablet-one-second mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom86 row no-gutters">
-							<div class="col-12 mcb_item_custom392 tablet-one mobile-one column_heading">
-								<div class="mcb-column-inner">
-									<h4 class="title">Premium+</h4>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom393 tablet-one mobile-one column_counter">
-								<div class="mcb-column-inner">
-									<div class="counter counter_vertical animate-math">
-										<div class="desc_wrapper">
-											<div class="number-wrapper"> <span class="label prefix">$</span><span class="number" data-to="59">59</span> </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom394 tablet-one mobile-one">
-								<div class="mcb-column-inner">
-									<div class="column_attr mfn-inline-editor clearfix">
-										<ul class="list_custom">
-											<li> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i>
-												Exterior washing </li>
-											<li> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i>
-												Vacuum cleaning </li>
-											<li> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i>
-												Interior wet cleaning </li>
-											<li> <i class="icon-plus" style="color:#77FFC3" aria-hidden="true"></i>
-												Window wiping </li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom168 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom168"> <a class="button button_full_width button_size_2" href="contact.html"><span class="button_label">Order now</span></a> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section mcb-section mcb-section_custom42 default-width">
-				<div class="section_wrapper mcb-section_inner_custom42 row no-gutters">
-					<div class="col-md-3 mcb_wrap_custom8 tablet-one-third mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner row no-gutters">
-							<div class="col-12 mcb_item_custom241 tablet-one mobile-one column_heading">
-								<div class=" mcb-column_inner_custom241">
-									<h4 class="title">Want to get fast and detailed car washing?</h4>
-								</div>
-							</div>
-							<div class="col-12 mcb_item_custom238 tablet-one mobile-one column_heading">
-								<div class=" mcb-column_inner_custom238">
-									<h2 class="title">Book it now!</h2>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 mcb-wrap_custom114 tablet-one-third mobile-one clearfix" data-desktop-col="one-second" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom114">
-							<div class="col-12 mcb_item_custom239 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom239">
-									<div class="image_frame element_classes image_item no_link scale-with-grid alignnone no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="content/carwash3/images/carwash3-book-pic1.webp" alt="carwash3-book-pic1" width="780" height="593" /> </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 mcb-wrap_custom115 tablet-one-third mobile-one clearfix" data-desktop-col="one-fourth" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
-						<div class="mcb-wrap_inner mcb-wrap_inner_custom115">
-							<div class="col-12 mcb_item_custom242 tablet-one mobile-one">
-								<div class=" mcb-column_inner_custom242"> <a class="button button_theme button_size_2" href="#"><span class="button_label">Start now</span></a> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-		<footer id="Footer" class="clearfix" role="contentinfo">
-			<div class="container">
-				<div class="row mcb-wrap_inner">
-					<div class="col-12">
-						<hr class="no_line" style="margin:0 auto 120px">
-					</div>
-					<div class="col-md-4">
-						<div class="mcb-column-inner">
-							<p> Call us if you need any help </p>
-							<h4><a href="tel:+61383766284" data-type="tel" data-id="tel:+61383766284">+61 (0) 383 766
-									284</a></h4>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="mcb-column-inner">
-							<figure class="wp-block-image size-full">
-								<a href="#Header_wrapper"><img src="content/carwash3/images/carwash3-footer-logo.svg" class="wp-image-71" /></a>
-							</figure>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="mcb-column-inner">
-							<p> Level 13, 2 Elizabeth St,
-								<br> Melbourne, Victoria 3000,
-								<br> Australia
-							</p>
-						</div>
-					</div>
-					<div class="col-12">
-						<hr class="no_line" style="margin:0 auto 20px">
-					</div>
-				</div>
-			</div>
-			<div class="footer_copy">
-				<div class="container">
-					<div class="column one mobile-one">
-						<div class="mcb-column-inner"> <a id="back_to_top" class="footer_button" href="#"><i class="icon-up-open-big" aria-label="Back to top icon"></i></a>
-							<div class="copyright"> &copy; 2022 - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="https://1.envato.market/9ZxXY">BeantownThemes</a> </div>
-							<ul class="social" role="navigation" aria-label="Social Menu"></ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include "inc-footer.php"; ?>
 	</div>
 	<div id="body_overlay"></div>
 	<div id="Side_slide" class="right dark" data-width="250" aria-expanded="false" role="banner" aria-label="Responsive menu">

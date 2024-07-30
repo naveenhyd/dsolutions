@@ -78,11 +78,11 @@
 					</div>
 					<div class="col-md-6 mcb-wrap_custom97 tablet-one mobile-one clearfix" data-desktop-col="two-fifth" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 						<div class="mcb-wrap_inner mcb-wrap_inner_custom97 row">
-							
+
 							<div class="col-md-12 tablet-one mobile-one">
 								<div class="mcb-column-inner">
 									<div class="column_attr mfn-inline-editor clearfix p-2">
-										<p>Feel free to reach out to us  with any questions or comments. we would love to hear from you!</p>
+										<p>Ready to enhance your automotive safety and security? Get in touch with us today to learn more about our services and how we can support your projects.</p>
 										<hr class="no_line" style="margin: 0 auto 25px auto" />
 										<div id="contactWrapper">
 											<div id="contactform">
